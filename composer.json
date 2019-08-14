@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Osgrow_Copayco",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Payment Module for Magento",
+    "authors": [
+    {
+        "name": "Osgrow",
+        "email": "info@osgrow.net"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

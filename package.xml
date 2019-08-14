@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Osgrow_Copayco</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Payment Module for Magento</summary>
+    <description>www.copayco.com payment module allows&#xD;
+recieving payment via internet acquiring(visa &amp; mastercard), internet banking, terminals</description>
+    <notes>First Stable Release</notes>
+    <authors><author><name>Osgrow</name><user>osgrow</user><email>info@osgrow.net</email></author></authors>
+    <date>2015-01-23</date>
+    <time>12:59:30</time>
+    <contents><target name="magecommunity"><dir name="Osgrow"><dir name="Copayco"><dir name="Block"><file name="Redirect.php" hash="975a5ddf2349a581310764a2f3745c44"/></dir><dir name="Helper"><file name="Api.php" hash="d158e755f2f0494fab29d60c617254f3"/><file name="Data.php" hash="d7f25fb9c67857e162b846067fd4777e"/><file name="config.php" hash="ab356fac7e14430cccab80b0acac0b4d"/><file name="copayco.php" hash="31937b0b511bcadc23718c0c64929b0b"/></dir><dir name="Model"><file name="Standard.php" hash="11d8670f4c2e502eddef9d4e172d2355"/></dir><dir name="controllers"><file name="StandardController.php" hash="92883b5b7c3a52a6129e905f52943431"/></dir><dir name="etc"><file name="config.xml" hash="58f23e2e1e1013a9903eb5beee10463e"/><file name="system.xml" hash="bcbfd92237c1b676d19ccf9bf091215e"/></dir></dir></dir></target><target name="magelocale"><dir/></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

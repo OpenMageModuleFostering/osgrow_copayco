@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Osgrow_Copayco>
+            <version>1.0.0</version>
+        </Osgrow_Copayco>
+    </modules>
+    <global>
+        <models>
+            <copayco>
+                <class>Osgrow_Copayco_Model</class>
+                <resourceModel>copayco_resource</resourceModel>
+            </copayco>
+        </models>
+        <blocks>
+            <copayco>
+                <class>Osgrow_Copayco_Block</class>
+           </copayco>
+        </blocks>
+        <helpers>
+            <copayco>
+                <class>Osgrow_Copayco_Helper</class>
+            </copayco>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <copayco_osgrow>
+                <use>standard</use>
+                <args>
+                    <module>Osgrow_Copayco</module>
+                    <frontName>copayco</frontName>
+                </args>
+            </copayco_osgrow>
+        </routers>
+
+    </frontend>
+    <default>
+        <payment>
+            <copayco_standard>
+                <model>copayco/standard</model>
+                <active>1</active>
+                <title>Copayco</title>
+                <validitytime>140</validitytime>
+                <sort_order>0</sort_order>
+            </copayco_standard>
+        </payment>
+    </default>
+</config>
