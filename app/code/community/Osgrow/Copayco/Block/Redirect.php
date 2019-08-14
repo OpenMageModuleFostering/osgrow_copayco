@@ -23,7 +23,7 @@
  * @author     Dmytro Borodulin
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
-class Osgrow_Copayco_Block_Redirect extends Mage_Core_Block_Abstract{
+class Osgrow_Privat24_Block_Redirect extends Mage_Core_Block_Abstract{
 
     /*
      * _toHtml

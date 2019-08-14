@@ -13,21 +13,25 @@ class copayco_api
     /**
      * CoPayCo submit URL
      */
-    const SUBMIT_URL      = 'https://www.copayco.com/pay.php';
+    //const SUBMIT_URL      = 'https://www.copayco.com/pay.php';
+    const SUBMIT_URL      = 'http://www.copayco.int/pay.php';
     /**
      * CoPayCo submit test URL
      */
-    const SUBMIT_URL_TEST = 'https://www.test.copayco.com/pay.php';
+    //const SUBMIT_URL_TEST = 'https://www.test.copayco.com/pay.php';
+    const SUBMIT_URL_TEST = 'http://www.copayco.int/pay.php';
 
     /**
      * CoPayCo notification URL
      */
-    const NOTIFICATION_URL      = 'https://www.copayco.com/notify_delivering.php';
+    //const NOTIFICATION_URL      = 'https://www.copayco.com/notify_delivering.php';
+    const NOTIFICATION_URL      = 'http://www.copayco.int/notify_delivering.php';
 
     /**
      * CoPayCo notification test URL
      */
-    const NOTIFICATION_URL_TEST = 'https://www.test.copayco.com/notify_delivering.php';
+    //const NOTIFICATION_URL_TEST = 'https://www.test.copayco.com/notify_delivering.php';
+    const NOTIFICATION_URL_TEST = 'https://www.copayco.int/notify_delivering.php';
 
     /**
      * Key of transaction id
