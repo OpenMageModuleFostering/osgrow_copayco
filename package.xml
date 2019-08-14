@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>Osgrow_Copayco</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
     <extends/>
     <summary>Payment Module for Magento</summary>
     <description>www.copayco.com payment module allows recieving payment via internet acquiring(visa, mastercard), internet banking, terminals</description>
-    <notes>added package content</notes>
+    <notes>small bugs fixing</notes>
     <authors><author><name>Osgrow</name><user>osgrow</user><email>info@osgrow.net</email></author></authors>
-    <date>2015-01-27</date>
-    <time>08:35:28</time>
-    <contents><target name="magecommunity"><dir name="Osgrow"><dir name="Copayco"><dir name="Block"><file name="Redirect.php" hash="299b453bdcdbe6270ed877c042187a77"/></dir><dir name="Helper"><file name="Api.php" hash="d158e755f2f0494fab29d60c617254f3"/><file name="Data.php" hash="d7f25fb9c67857e162b846067fd4777e"/><file name="config.php" hash="ab356fac7e14430cccab80b0acac0b4d"/><file name="copayco.php" hash="f7b74b67a12849bab4a2eb608bdde444"/></dir><dir name="Model"><file name="Standard.php" hash="11d8670f4c2e502eddef9d4e172d2355"/></dir><dir name="controllers"><file name="StandardController.php" hash="92883b5b7c3a52a6129e905f52943431"/></dir><dir name="etc"><file name="config.xml" hash="8d249f7f02d12ffa7ffa14e8ef73cd7d"/><file name="system.xml" hash="bcbfd92237c1b676d19ccf9bf091215e"/></dir></dir></dir></target><target name="magelocale"><dir><dir name="ru_RU"><file name="Osgrow_Copayco.csv" hash="63f3244f194470a15cecd556b1f82695"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Osgrow_Copayco.xml" hash="aa07a7eeb9ce66a3a15032356e57bd3f"/></dir></target></contents>
+    <date>2015-01-28</date>
+    <time>11:44:58</time>
+    <contents><target name="magecommunity"><dir name="Osgrow"><dir name="Copayco"><dir name="Block"><file name="Redirect.php" hash="975a5ddf2349a581310764a2f3745c44"/></dir><dir name="Helper"><file name="Api.php" hash="d158e755f2f0494fab29d60c617254f3"/><file name="Data.php" hash="d7f25fb9c67857e162b846067fd4777e"/><file name="config.php" hash="ab356fac7e14430cccab80b0acac0b4d"/><file name="copayco.php" hash="186888019d73aaf23a25cfbc741333b3"/></dir><dir name="Model"><file name="Standard.php" hash="11d8670f4c2e502eddef9d4e172d2355"/></dir><dir name="controllers"><file name="StandardController.php" hash="92883b5b7c3a52a6129e905f52943431"/></dir><dir name="etc"><file name="config.xml" hash="447d05985a3c61eeee300d5561dd0b5f"/><file name="system.xml" hash="bcbfd92237c1b676d19ccf9bf091215e"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Osgrow_Copayco.xml" hash="aa07a7eeb9ce66a3a15032356e57bd3f"/></dir></target><target name="magelocale"><dir><dir name="ru_RU"><file name="Osgrow_Copayco.csv" hash="63f3244f194470a15cecd556b1f82695"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
